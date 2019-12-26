@@ -75,27 +75,8 @@ public class HeapSort {
 	 
 	 public static void main(String [] args)
 	 {
-		 // lets test to see if the maxheap is working
-		 //long startTime = System.currentTimeMillis();
-		/* Random num = new Random();
-		 Integer [] array = new Integer[1000000];
-		 for(int i = 0; i<array.length;i++)
-		 {
-			 array[i] = num.nextInt(100000);
-		 }
-		
-		 long startTime = System.currentTimeMillis();
-		 heapSort(array);
-		 long endTime = System.currentTimeMillis();
-
-		 System.out.println("That took " + (endTime - startTime) + " milliseconds");
 		 
-		 for(Integer i: array)
-			 System.out.println(i); */
-		 
-		 
-		// int sum = args.length == 1 ? Integer.parseInt(args[0]) : 10;
-		 int sum = 1000000;
+	     int sum = 1000000;
 	     Integer[] a = new Integer[sum];
 	     Random rand = new Random(1);
 
