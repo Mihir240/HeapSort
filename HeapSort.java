@@ -3,8 +3,7 @@ import java.util.Random;
 
 public class HeapSort {
 	
-	
-	 public static <T extends Comparable<? super T>> void heapSort(T[] array)
+	public static <T extends Comparable<? super T>> void heapSort(T[] array)
 	 {
 		maxheap(array);
 	   
