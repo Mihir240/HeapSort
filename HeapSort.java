@@ -9,10 +9,10 @@ public class HeapSort
 	   
 		for(int i = (array.length-1); i >= 1; i--)
 		{
-			T temp = array[i];
-			array[i] = array[0];
-			array[0] = temp;
-			heapify(array,0,i);	
+		  T temp = array[i];
+		  array[i] = array[0];
+		  array[0] = temp;
+		  heapify(array,0,i);	
 		}
 	 }
 	 private static <T extends Comparable <? super T>> void maxheap(T [] array)
